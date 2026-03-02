@@ -1,0 +1,29 @@
+📊 Customer Churn Analysis — Exploratory Data Analysis (EDA)
+🔍 Overview
+This project performs a comprehensive Exploratory Data Analysis (EDA) on the Telco Customer Churn dataset. The goal is to understand what factors drive customers to leave a telecom company, and to surface actionable insights that could support retention strategies.
+📁 Dataset
+
+Source: Telco Customer Churn — Kaggle
+Size: 7,043 customers × 21 features
+Target variable: Churn (Yes / No)
+
+🛠️ What's Inside
+
+✅ Data cleaning & missing value imputation
+📊 Univariate analysis — distributions for numerical & categorical features
+📈 Churn rate (%) per category for every feature
+🔗 Bivariate analysis — scatter plots colored by churn status
+📦 Boxplots comparing churned vs. retained customers
+🌡️ Correlation heatmap
+🧪 Statistical significance tests (Chi-Square & Mann-Whitney U)
+
+💡 Key Findings
+
+Month-to-month contract customers churn at a much higher rate than long-term contract holders
+Fiber optic internet service is associated with significantly higher churn
+Customers without TechSupport or OnlineSecurity are more likely to churn
+Electronic check payment method has the highest churn rate
+Gender shows no significant impact on churn
+
+🧰 Tech Stack
+Python · Pandas · Plotly · SciPy · Scikit-learn · NumPy
